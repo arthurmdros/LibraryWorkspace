@@ -1,9 +1,16 @@
 {
-  "name": "components-lib",
+  "name": "@arthurmdros/components-lib",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arthurmdros/LibraryWorkspace.git"
+  },
+  "publishConfig": {
+    "@arthurmdros:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "tslib": "^2.3.0"
